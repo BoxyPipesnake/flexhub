@@ -19,3 +19,12 @@ body {
   font-size: 1.1rem;
   margin-top: 0.5rem;
 }
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+
