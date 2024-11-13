@@ -1,0 +1,21 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
