@@ -1,7 +1,6 @@
-
 body {
-    font-family: 'Nunito', sans-serif;
-    line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.6;
 }
 
 .header {
@@ -10,7 +9,6 @@ body {
   padding: 1.5rem;
   text-align: center;
 }
-
 
 .header h1 {
   font-size: 2rem;
@@ -73,16 +71,25 @@ body {
 }
 
 .cta button {
-  padding: 1.5rem;
-  font-size: 1rem;
+  padding: 1.5rem 2.5rem;
+  font-size: 1.1rem;
   font-weight: bold;
   border: none;
-  background-color: #0073e6;
+  background: linear-gradient(135deg, #0073e6, #005bb5);
   color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 115, 230, 0.3);
 }
 
 .cta button:hover {
-  background-color: #005bb5;
+  background: linear-gradient(135deg, #005bb5, #003366);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 115, 230, 0.4);
+}
+
+.cta button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 115, 230, 0.6);
 }
